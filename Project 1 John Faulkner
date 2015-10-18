@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+<head>
+<title>Justice League Superhero Quiz</title>
+</head>
+<style>
+	body {
+	background-image: url("http://cartoonsonlinepics.com/wp-content/uploads/2015/04/Justice-League-silhouettes-5.jpg");
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	text-align:center;
+	}
+	h1 {
+		color: Green;
+		text-align: center;
+	}
+	p {
+		font-family: "Arial";
+		font-size: 15px;
+		color: blue;
+	}
+	
+</style>
+	<body>
+	<h1> Justice League Superhero Quiz</h1>
+		<blockquote>
+		<form>
+				<p style="color:green">1. What colour is your super suit?</p>
+					<input type="radio" name="q" id="blue" value="Blue"> <label for="blue" style="color:red" >Blue</label>
+					<br><input type="radio" name="q" id="red" value="Red"> <label for="red" style="color:red">Red</label>
+					<br><input type="radio" name="q" id="black" value="Black"> <label for="black" style="color:red">Black</label>
+					<br><input type="radio" name="q" id="green" value="Green"> <label for="green" style="color:red">Green</label>
+
+				<p style="color:green">2. Where is my super-suit!</p>
+					<input type="radio" name="q2" id="under the bed" value="Under the bed"> <label for="under the bed" style="color:red">Under the bed</label>
+					<br><input type="radio" name="q2" id="in the closet" value="In the closet"> <label for="in the closet" style="color:red">In the closet</label>
+					<br><input type="radio" name="q2" id="in the trash" value="In the trash"> <label for="in the trash" style="color:red">In the trash</label>
+					<br><input type="radio" name="q2" id="you are wearing it" value="You are wearing it"> <label for="you are wearing it" style="color:red">You are wearing it</label>
+
+				<p style="color:green">3. What is your super power?</p>
+					<input type="radio" name="q3" id="flight" value="Flight"> <label for="flight" style="color:red">Flight</label> 
+					<br><input type="radio" name="q3" id="super strength" value="Super strength"> <label for="super strength" style="color:red">Super strength</label> 
+					<br><input type="radio" name="q3" id="super speed" value="Super speed"> <label for="super speed"style="color:red">Super speed</label> 
+					<br><input type="radio" name="q3" id="i do not have any powers" value="I do not have any powers"> <label for="i do not have any powers" style="color:red">I do not have any powers</label> 
+
+				<p style="color:green">4. Why do you fight?</p>
+					<input type="radio" name="q4" id="for my friends" value="For my friends"> <label for="for my friends" style="color:red">For my friends</label> 
+					<br><input type="radio" name="q4" id="for glory" value="For glory"> <label for="for glory" style="color:red">For glory</label> 
+					<br><input type="radio" name="q4" id="for justice" value="For justice"> <label for="for justice" style="color:red">For justice</label> 
+					<br><input type="radio" name="q4" id="for revenge" value="For revenge"> <label for="for revenge" style="color:red">For revenge</label> 
+
+				<p style="color:green">5. A man is falling from a building! What will you do?</p>
+					<input type="radio" name="q5" id="catch him on the way down" value="Catch him on the way down"> <label for="catch him on the way down" style="color:red">Catch him on the way down</label> 
+					<br><input type="radio" name="q5" id="jump up and catch him halfway" value="Jump up and catch him halfway"> <label for="jump up and catch him halfway" style="color:red">Jump up and catch him halfway</label> 
+					<br><input type="radio" name="q5" id="use grapple gadget to catch him" value="Use grapple gadget to catch him"> <label for="use grapple gadget to catch him" style="color:red">Use grapple gadget to catch him</label> 
+					<br><input type="radio" name="q5" id="let him fall" value="Let him fall"> <label for="let him fall" style="color:red">Let him fall</label> 
+
+				<p style="color:green">6. Where is your superhero base?</p>
+					<input type="radio" name="q6" id="a underground cave" value="A underground cave"> <label for="a underground cave" style="color:red">A underground cave</label> 
+					<br><input type="radio" name="q6" id="the Arctic" value="The Arctic"> <label for="the Arctic" style="color:red">The Arctic</label> 
+					<br><input type="radio" name="q6" id="in deep space" value="In deep space"> <label for="in deep space" style="color:red">In deep space</label> 
+					<br><input type="radio" name="q6" id="in the ocean" value="In the ocean"> <label for="in the ocean" style="color:red">In the ocean</label> 
+
+				<p style="color:green">7. What is your secret identity?</p>
+					<input type="radio" name="q7" id="photographer" value="Photographer"> <label for="photographer" style="color:red">Photographer</label> 
+					<br><input type="radio" name="q7" id="reporter" value="Reporter"> <label for="reporter" style="color:red">Reporter</label> 
+					<br><input type="radio" name="q7" id="playboy billionaire" value="Playboy billionaire"> <label for="playboy billionaire" style="color:red">Playboy billionaire</label> 
+					<br><input type="radio" name="q7" id="schoolteacher" value="Schoolteacher"> <label for="schoolteacher" style="color:red">Schoolteacher</label> 
+
+				<p style="color:green">8. Do you have or want a sidekick?</p>
+					<input type="radio" name="q8" id="no" value="No"> <label for="no" style="color:red">No</label> 
+					<br><input type="radio" name="q8" id="its too dangerous" value="Its too dangerous"> <label for="its too dangerous" style="color:red">Its too dangerous</label> 
+					<br><input type="radio" name="q8" id="i work alone" value="I work alone"> <label for="i work alone" style="color:red">I work alone</label> 
+					<br><input type="radio" name="q8" id="have not met them yet" value="Have not met them yet"> <label for="have not met them yet" style="color:red">Have not met them yet</label> 
+
+				<p style="color:green">9. The bad guy has given up! What will you do?</p>
+					<input type="radio" name="q9" id="finish them" value="Finish them"> <label for"finish them" style="color:red">Finish them</label> 
+					<br><input type="radio" name="q9" id="hand them to the police" value="Hand them to the police"> <label for="hand them to the police" style="color:red">Hand them to the police</label> 
+					<br><input type="radio" name="q9" id="knock them out" value="Knock them out"> <label for="knock them out" style="color:red">Knock them out</label> 
+					<br><input type="radio" name="q9" id="announce your victory" value="Announce your victory"> <label for="announce your victory" style="color:red">Announce your victory</label> 
+
+				<p style="color:green">10. How are you viewed as a hero?</p>
+					<input type="radio" name="q10" id="vigilante" value="Vigilante"> <label for="vigilante" style="color:red">Vigilante</label> 
+					<br><input type="radio" name="q10" id="amateur" value="Amateur"> <label for="amateur" style="color:red">Amateur</label> 
+					<br><input type="radio" name="q10" id="saviour" value="Saviour"> <label for="saviour" style="color:red">Saviour</label> 
+					<br><input type="radio" name="q10" id="Menace" value="menace"> <label for="menace" style="color:red">Menace</label> 
+					
+				<br></br><input type="button" id="quizButton" value="Get Results!">
+		</form>
+		</blockquote>
+		<p id="qParagraph"></p>
+	</body>
+
+	<script>
+	//get the results when the button is clicked
+	var myAnswers = ['Superman','The Flash','Batman','Green Lantern'];
+	var points = [0,0,0,0];
+	
+	//set up a function to run when the window is loaded
+	//grab the button and wait for a click
+	function init(){
+		var button = document.getElementById('quizButton');
+		button.onclick = checkQuiz;
+	}
+	
+		function checkQuiz() {
+			var q;
+			var q2;
+			var q3;
+			var q4;
+			var q5;
+			var q6;
+			var q7;
+			var q8;
+			var q9;
+			var q10;
+			
+			var inputs = document.getElementsByName('q');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Blue': 
+					points[2]++;
+					break;
+				case 'Red': 
+					points[3]++;
+					break;
+				case 'Black': 
+					points[1]++;
+					break;
+				case 'Green': 
+					points[0]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q2');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Under the bed': 
+					points[2]++;
+					break;
+				case 'In your closet': 
+					points[3]++;
+					break;
+				case 'In the trash': 
+					points[1]++;
+					break;
+				case 'You are wearing it': 
+					points[0]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q3');
+			q = findValue(inputs);
+			switch(q3) {
+				case 'Flight': 
+					points[3]++
+					break;
+				case 'Super Speed': 
+					points[1]++
+					break;
+				case 'Super Strength': 
+					points[0]++
+					break;
+				case 'I do not have powers': 
+					points[2]++
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q4');
+			q = findValue(inputs);
+			switch(q) {
+				case 'For Friends': 
+					points[2]++;
+					break;
+				case 'For Glory': 
+					points[3]++;
+					break;
+				case 'For Justice': 
+					points[1]++;
+					break;
+				case 'For revenge': 
+					points[0]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q5');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Catch them on the way down': 
+					points[0]++;
+					break;
+				case 'Jump up and catch them halfway': 
+					points[1]++;
+					break;
+				case 'Use grapple gadget to catch him': 
+					points[2]++;
+					break;
+				case 'Let them fall': 
+					points[3]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q6');
+			q = findValue(inputs);
+			switch(q) {
+				case 'A underground cave': 
+					points[2]++;
+					break;
+				case 'The Arctic': 
+					points[0]++;
+					break;
+				case 'In deep Space': 
+					points[3]++;
+					break;
+				case 'In the ocean': 
+					points[1]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q7');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Photographer': 
+					points[1]++;
+					break;
+				case 'Reporter': 
+					points[0]++;
+					break;
+				case 'Playboy billionaire': 
+					points[2]++;
+					break;
+				case 'Schoolteacher': 
+					points[3]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q8');
+			q = findValue(inputs);
+			switch(q) {
+				case 'No': 
+					points[2]++;
+					break;
+				case 'Its too dangerous': 
+					points[3]++;
+					break;
+				case 'I work alone': 
+					points[0]++;
+					break;
+				case 'Have not met them yet': 
+					points[1]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q9');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Finish them': 
+					points[3]++;
+					break;
+				case 'Hand them over to the police': 
+					points[2]++;
+					break;
+				case 'Knock them out': 
+					points[0]++;
+					break;
+				case 'Announce your victory': 
+					points[1]++;
+					break;
+			}
+			
+			var inputs = document.getElementsByName('q10');
+			q = findValue(inputs);
+			switch(q) {
+				case 'Vigilante': 
+					points[2]++;
+					break;
+				case 'Amateur': 
+					points[3]++;
+					break;
+				case 'Savior': 
+					points[0]++;
+					break;
+				case 'Menace': 
+					points[1]++;
+					break;
+			}
+			
+			//alert('Clicked');
+			//alert(inputs[0]);
+			//keep track of the highest point value so far
+			maxScore = 0;
+			//keep track of where that high score is (the index)
+			maxIndex = 0;
+			//cycle through to find the highest score
+			for (var i=0; i<points.length; i++) {
+				if (points[i] > maxScore) {
+					//saves the index if this is a new high score
+					maxIndex = i;
+				}
+			}
+			//grabs the house corresponding with the high score's index
+			q = myAnswers[maxIndex];
+			//displays results
+			//note that this example does not deal with cases where two houses are even
+			
+			//alert('Clicked');
+			//displays results
+			displayQ(q);
+		}
+		
+	function findValue(inputs) {
+		var checked;
+		for (var i=0; i<inputs.length; i++) {
+			if (inputs[i].checked) {
+				alert(inputs[i].value);
+				checked = inputs[i].value;
+				return(checked);
+			}
+		}
+		//if house hasn't been defined, no choice was picked
+		if (!checked) {
+			alert('Please choose a Answer.');
+		}
+	}
+		
+		//display a results image for the chosen house
+		function displayQ(q){
+			//make a new image object
+			var image = document.createElement('img');
+			//assign it CSS properties with a class
+			image.className = 'q';
+			//grab the paragraph to append the image to
+			var source = document.getElementById('qParagraph');
+			var text = 'Congratulations! You are ' + q + '!';
+			//pick the right image source by q using a switch statement
+			switch(q){
+				case 'Superman':
+					image.src = 'https://media.giphy.com/media/JslxiL7b0ygow/giphy.gif';
+					break;
+				case 'The Flash':
+					image.src = 'http://media.giphy.com/media/ZSvAC5c9RkW4g/giphy.gif';
+					break;
+				case 'Batman':
+					image.src = 'https://heavyeditorial.files.wordpress.com/2014/03/batman-hot-dog.gif?w=450';
+					break;
+				case 'Green Lantern':
+					image.src = 'http://33.media.tumblr.com/f8439bf4f8102186ee075c100955419b/tumblr_nqly8uznVs1repoz9o1_500.gif';
+					break;
+			}
+			
+			//add the image to the paragraph
+			source.appendChild(image);
+			//append the text on a new line
+			source.innerHTML += '<br>' + text;
+		}
+		//call the initial function when the window is loaded
+		window.onload = init;
+	</script>
+</html>
